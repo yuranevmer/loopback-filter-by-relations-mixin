@@ -1,6 +1,6 @@
 {
   "name": "loopback-filter-by-relations-mixin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Loopback mixin that supports filtering using nested 'where' conditions for relations",
   "main": "./filter-by-relations.js",
   "scripts": {
