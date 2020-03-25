@@ -1,0 +1,6 @@
+{
+  "name": "OrderItem",
+  "mixins": {
+    "FilterByRelations": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Order",
+  "mixins": {
+    "FilterByRelations": true
+  },
+  "relations": {
+    "customer": {
+      "type": "belongsTo",
+      "model": "Customer",
+      "foreignKey": "customerId"
+    },
+    "products": {
+      "type": "hasMany",
+      "model": "Product",
+      "through": "OrderItem",
+      "foreignKey": "productId",
+      "keyThrough": "orderId"
+    },
+    "order_items": {
+      "type": "hasMany",
+      "model": "OrderItem",
+      "foreignKey": "orderId"
+    }
+  },
+  "properties": {
+    
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sources": [
+      "../common/models"
+    ],
+    "mixins": [
+      "../../../../"
+    ]
+  },
+  "Customer": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Order": {
+    "dataSource": "db",
+    "public": true
+  },
+  "OrderItem": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Product": {
+    "dataSource": "db",
+    "public": true
+  }
+}

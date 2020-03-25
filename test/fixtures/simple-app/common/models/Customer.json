@@ -1,0 +1,13 @@
+{
+  "name": "Customer",
+  "mixins": {
+    "FilterByRelations": true
+  },
+  "relations": {
+    "orders": {
+      "type": "hasMany",
+      "model": "Order",
+      "foreignKey": "customerId"
+    }
+  }
+}
