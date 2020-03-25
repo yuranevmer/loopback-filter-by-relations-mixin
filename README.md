@@ -1,5 +1,8 @@
 # loopback-filter-by-relations-mixin
 
+[![Build Status](https://travis-ci.com/yuranevmer/loopback-filter-by-relations-mixin.svg?branch=master)](https://travis-ci.com/yuranevmer/loopback-filter-by-relations-mixin)(https://travis-ci.org/yuranevmer/
+loopback-filter-by-relations-mixin)
+[![Coverage Status](https://coveralls.io/repos/github/yuranevmer/loopback-filter-by-relations-mixin/badge.svg)](https://coveralls.io/github/yuranevmer/loopback-filter-by-relations-mixin)
 
 ## Features
 
