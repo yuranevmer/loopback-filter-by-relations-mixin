@@ -1,4 +1,4 @@
-# loopback-filter-by-reations-mixin
+# loopback-filter-by-relations-mixin
 
 
 ## Features
@@ -11,7 +11,7 @@
 ## Installation
 
 ```bash
-npm install loopback-filter-by-reations-mixin --save
+npm install loopback-filter-by-relations-mixin --save
 ```
 
 ## How to use
@@ -30,7 +30,7 @@ Add the mixins property to your server/model-config.json like the following:
     "mixins": [
       "loopback/common/mixins",
       "../common/mixins",
-      "../node_modules/loopback-filter-by-reations-mixin"
+      "../node_modules/loopback-filter-by-relations-mixin"
     ]
   }
 }
