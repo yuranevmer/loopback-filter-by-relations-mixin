@@ -21,8 +21,5 @@
       "model": "OrderItem",
       "foreignKey": "orderId"
     }
-  },
-  "properties": {
-    
   }
 }
