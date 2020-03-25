@@ -120,7 +120,7 @@ Order.find({
 
 [MIT](LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/loopback-include-through-mixin.svg
-[npm-url]: https://npmjs.org/package/loopback-include-through-mixin
-[npm-downloads-image]: https://img.shields.io/npm/dm/loopback-include-through-mixin.svg
-[npm-downloads-url]: https://npmjs.org/package/loopback-include-through-mixin
+[npm-image]: https://img.shields.io/npm/v/loopback-filter-by-relations-mixin.svg
+[npm-url]: https://npmjs.org/package/loopback-filter-by-relations-mixin
+[npm-downloads-image]: https://img.shields.io/npm/dm/loopback-filter-by-relations-mixin.svg
+[npm-downloads-url]: https://npmjs.org/package/loopback-filter-by-relations-mixin
