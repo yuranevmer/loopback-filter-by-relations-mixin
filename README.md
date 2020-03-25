@@ -1,7 +1,6 @@
 # loopback-filter-by-relations-mixin
-
-[![Build Status](https://travis-ci.com/yuranevmer/loopback-filter-by-relations-mixin.svg?branch=master)](https://travis-ci.com/yuranevmer/loopback-filter-by-relations-mixin)(https://travis-ci.org/yuranevmer/
-loopback-filter-by-relations-mixin)
+[![NPM version][npm-image]][npm-url] [![NPM downloads][npm-downloads-image]][npm-downloads-url]
+[![Build Status](https://travis-ci.com/yuranevmer/loopback-filter-by-relations-mixin.svg?branch=master)](https://travis-ci.com/yuranevmer/loopback-filter-by-relations-mixin)
 [![Coverage Status](https://coveralls.io/repos/github/yuranevmer/loopback-filter-by-relations-mixin/badge.svg)](https://coveralls.io/github/yuranevmer/loopback-filter-by-relations-mixin)
 
 ## Features
@@ -120,3 +119,8 @@ Order.find({
 ## License
 
 [MIT](LICENSE)
+
+[npm-image]: https://img.shields.io/npm/v/loopback-include-through-mixin.svg
+[npm-url]: https://npmjs.org/package/loopback-include-through-mixin
+[npm-downloads-image]: https://img.shields.io/npm/dm/loopback-include-through-mixin.svg
+[npm-downloads-url]: https://npmjs.org/package/loopback-include-through-mixin
