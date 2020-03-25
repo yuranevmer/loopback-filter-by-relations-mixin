@@ -1,10 +1,10 @@
 var expect = require('chai').expect;
 var app = require('./fixtures/simple-app/server/server');
-const { Customer, Order, OrderItem, Product } = app.models;
 
 describe("mixin:FilterByRelations", function () {
-
+    
     before(async function () {
+        const { Customer, Order, OrderItem, Product } = app.models;
         await Customer.create({ name: 'John' });
         await Customer.create({ name: 'Bob' });
 

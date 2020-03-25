@@ -1,11 +1,11 @@
 {
   "name": "loopback-filter-by-relations-mixin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Loopback mixin that supports filtering using nested 'where' conditions for relations",
   "main": "./filter-by-relations.js",
   "scripts": {
     "test": "mocha test/**",
-    "coverage": "nyc --reporter=text-summary mocha test/**"
+    "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
   },
   "keywords": [
     "loopback",
@@ -24,7 +24,10 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "coveralls": "^3.0.11",
     "loopback": "^3.27.0",
+    "loopback-boot": "^3.3.1",
+    "mocha": "^7.1.1",
     "nyc": "^15.0.0"
   },
   "directories": {
