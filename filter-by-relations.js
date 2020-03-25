@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('./lib/filter-by-reations');
+module.exports = require('./lib/filter-by-relations');

@@ -26,5 +26,17 @@
     "chai": "^4.2.0",
     "loopback": "^3.27.0",
     "nyc": "^15.0.0"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuranevmer/loopback-filter-by-relations-mixin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yuranevmer/loopback-filter-by-relations-mixin/issues"
+  },
+  "homepage": "https://github.com/yuranevmer/loopback-filter-by-relations-mixin#readme"
 }
